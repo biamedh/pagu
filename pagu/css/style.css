@@ -1,0 +1,284 @@
+header{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #f5f5f5;
+  
+}
+  
+article{
+  background-color:green;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+h1{
+  text-align: center;
+  color: #642764;
+  margin-top: 30px;
+
+
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  margin-top: 10px;
+  color:  #642764;
+}
+
+a{
+  text-align: center;
+  color: #642764;
+}
+
+#h{
+  text-align: center;
+}
+
+.menu {
+  overflow: hidden;
+  background-color:#DDA0DD;;
+}
+
+.menu a {/*menu de cima muda as cores*/
+  color: white;
+  float: left;
+  position: relative;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background-color: #642764;
+  color: white;
+}
+
+.menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+#texto {
+   margin-top: 30px;
+   margin-left: 200px;
+   margin-right: 200px;
+   font-size:20px;   
+   min-height: 250px;
+   flex-direction: column;
+   text-align:justify;
+
+ }
+.rodape{
+   margin-top: 30px;
+   display:grid; /*deixar elas uma do lado da outra*/
+   grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+   background-color: #DDA0DD;
+   padding: 20px 8%;
+
+}
+
+.rodape p{
+  color: #642764;
+  text-align: center;
+  
+}
+
+.rodape img{
+  width: 50px;
+  height: 50px;
+  transition:all .3s; 
+  cursor:pointer;
+  transform:scale(0.9);
+}
+
+
+.pages a {
+  color:#642764;
+  text-align: center;
+
+}
+
+.redes img{
+  width: 50px;
+  height:50px;
+  transition:all .3s;
+  cursor:pointer;
+  transform:scale(0.9);
+
+}
+
+#dads {
+  
+  margin-left:50px;
+   min-height: 250px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   display:grid; /*deixar elas uma do lado da outra*/
+   grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+
+   
+}
+
+#d1 {
+    width:100px;
+    justify-content: center;
+    height: 300px;
+    padding: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #e0bcdd; /*cor de fundo #4dc934; #44d854;  ou #9cdb7c;*/
+    color: #f1f1f1; /*cor da letra*/
+}
+
+#d1 a{
+  color: white;
+  height: 170px;
+  padding-top: 10px;
+  text-align: center;
+
+}
+
+#d1 img{
+  margin-top: 10px;
+  width: 200px;
+  transition:all .3s;
+  cursor:pointer;
+  transform:scale(0.9);
+
+}
+#form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset{
+ padding-left: 100px;
+  padding-right: 100px;
+    padding-bottom: 50px;
+  min-height: 250px;
+  display: flex;
+   box-shadow: 15px 15px 15px grey;
+  align-items: center;
+   border: none;
+   border-radius:10px;
+   margin: 5px;
+   background-color: #feeafa;
+       
+}
+
+input{
+  background-color: #eff1f3;
+   border-width: 1px;
+  border-color:#642764;
+  margin-top: 20px;
+  width: 407px;
+  height: 45px;
+  color:#642764;
+  font-size: 1.2em;
+  padding-left: 10px;
+
+}
+
+::placeholder{
+  color:#642764;
+  font-size: 1.2em;
+  letter-spacing:5.0 expanded;
+  padding-left: 10px;
+  
+}
+
+textarea{
+  margin-top: 20px;
+  padding-top: 10px;
+  border-width: 1px;
+  border-color:#642764;
+  background-color:#eff1f3;
+  color:#642764;
+  font-size: 1.2em;
+  letter-spacing:5.0 expanded;
+  padding-left: 7px;
+
+}
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  border-width: 2px;
+  border-color:#642764;
+}
+
+#btn{
+ margin-top: 20px;
+  color: white;
+  width: 400px;
+  height: 50px;
+  border-radius: 2px;
+  font-size: 1.2em;
+  transition: .5s;
+  box-shadow: 3px 3px 3px grey;
+  background-color:#642764;
+  border-width: 1.5px;  
+ cursor: pointer; 
+
+}
+
+#btn:hover{
+  background-color: #DDA0DD;
+  cursor: pointer;
+  color:#642764;
+  border-color: white;
+  box-shadow: 7px 7px 7px;
+}
+
+#textoprin{
+    min-height: 250px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   margin-left: 50px;
+   margin-right: 50px;   
+   align-items: center;
+
+ }
+
+#textaj{
+  display: flex;
+  margin-top: 20px;
+}
+#textaj img{
+  width: 350px;
+  height: 200px;
+}
+
+#txt1 {
+  width: 600px;
+  height: 200px;
+}
+
+#txt1 p{
+  width: 510px;
+  margin-top:30px;
+  margin-left:30px;
+  font-size:20px;
+}
+
+input[type='checkbox']{
+  padding-left: 0px;
+  margin: 0px;
+  width: 20px;
+  height: 20px;
+
+}
